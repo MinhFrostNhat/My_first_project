@@ -1,0 +1,79 @@
+/* -------------------------------------------------------------------------------------------------------- */
+
+/*---------------------------------------------DEFAULT SETUP----------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/*-------------------------------------------REUSEABLE COMPONENTS------------------------------------------ */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #e67a22;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 0 5px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+}
+
+.btn:hover, .btn:active {
+    background-color: #d35400;
+}
+
+section {
+    padding: 50px;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/*-------------------------------------------------HEADER-------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+header {
+    background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.8) 55%, rgba(45, 95, 93, 0.85));
+    height: 20vh;
+    /*View height*/
+}
+
+.logo {
+    width: 250px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+

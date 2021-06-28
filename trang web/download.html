@@ -1,0 +1,8 @@
+{%load static %}
+{%static "images" as baseURL%}
+<form method="POST">
+    {%csrf_token%}
+    {{form.as_p}}
+    <input type="file" name="user_file">
+			<button type="submit">pdf</button>
+</form>
